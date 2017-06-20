@@ -4,35 +4,36 @@
   color: seashell;
   background: black;
   opacity: 0.9;
-  height: 69px;
+  height: 200px;
   width: 100%;
   border-bottom: 1px solid seashell;
-  position: fixed;
 
+  display:flex;
+  justify-items: center;
   z-index: 30;
-}
-
-
-
-
-.box{
-    display:flex;
 
 }
 
-img{
 
-  height: 50px;
+
+
+#boxlogo{
+  height: 140px;
+  width: 100;
   margin-left: 10px;
+
 }
+
+
+
+
+
 
 nav{
-  margin-left: 650px;
-}
 
-nav ul{
-
-
+  margin-left: 500px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 
 }
 
@@ -40,14 +41,32 @@ nav li{
 display: inline-block;
 text-decoration: underline;
 justify-content: space-between;
+
 }
 
 .container1mg{
+
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   height: 700px;
   z-index: 10;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
 
 
+
+
+
+
+}
+
+.container2bg{
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 #containerid{
@@ -60,34 +79,92 @@ justify-content: space-between;
   color: seashell;
   background: black;
   opacity: 0.9;
-  z-index: 30;
+  z-index: 20;
+
+
 
 }
+
+
 
 h2 {
-  font-size: 28px;
-  align-text: center
+  font-size: 34px;
+  text-align: center;
   font-family: Helvetica;
-
-
-
+  color: white;
 
 }
+
 
 h4{
     font-size: 22px;
     font-family: Helvetica;
-    align-text: center
+    text-align: center;
+    color: white;
   }
 
-  .container2{
-       display: flex;
+  .container2 {
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+
   }
 
-  .boxes{
-
+  img{
     height: 200px;
     width: 300px;
+  }
+
+  .container3bg{
+    padding: 40px;
+    background-image: url(" https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .container3 {
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  #boxes{
+    height: 200px;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    margin-left: 10px;
+  }
+
+  #boxes1{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    margin-left: 10px;
+  }
+
+  .footer{
+    padding: 20px;
+    background-color: black;
+  }
+
+  .copy{
+    text-align: left;
+  }
+
+
+
+
+
 
 
   }
