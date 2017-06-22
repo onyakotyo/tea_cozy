@@ -17,10 +17,17 @@
 
 
 
-#boxlogo{
-  height: 140px;
-  width: 100;
-  margin-left: 10px;
+.boxlogo{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-tea-cozy-logo.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  height: 80%;
+  width: 20%;
+  margin-left: 5%;
 
 }
 
@@ -29,18 +36,21 @@
 
 
 
-nav{
+.box2 {
 
-  margin-left: 500px;
+  margin-left: 45%;
   padding-top: 50px;
   padding-bottom: 50px;
+  width: 30%;
 
 }
 
-nav li{
+.box2 li{
 display: inline-block;
 text-decoration: underline;
 justify-content: space-between;
+color: white;
+padding: 2%;
 
 }
 
@@ -55,6 +65,7 @@ justify-content: space-between;
   text-align: center;
   background-position: center;
   background-size: cover;
+  padding-top: 30%;
 
 
 
@@ -79,11 +90,13 @@ justify-content: space-between;
   color: seashell;
   background: black;
   opacity: 0.9;
-  z-index: 20;
+  z-index: 30;
 
 
 
 }
+
+
 
 
 
@@ -162,9 +175,12 @@ h4{
   }
 
 
-
-
-
+@media only screen and (min-width: 1200px){
+   .box2{
+    margin-left: 10%;
+    width: 100%;
+    color: white;
 
 
   }
+}
